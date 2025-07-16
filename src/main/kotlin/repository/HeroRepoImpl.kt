@@ -9,7 +9,6 @@ const val PREV_PAGE_KEY = "prevPage"
 
 class HeroRepoImpl : HeroRepository {
 
-
     override val page1: List<Hero> = listOf(
         Hero(
             id = 1,
@@ -478,6 +477,7 @@ class HeroRepoImpl : HeroRepository {
             prevPage = calculatePage(page)[PREV_PAGE_KEY],
             nextPage = calculatePage(page)[NEXT_PAGE_KEY],
             heroes = heroes[page]!!,
+            lastUpdated = System.currentTimeMillis()
         )
     }
 
