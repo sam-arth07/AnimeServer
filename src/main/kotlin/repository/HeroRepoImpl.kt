@@ -462,12 +462,489 @@ class HeroRepoImpl : HeroRepository {
         )
     )
 
+    override val page6: List<Hero> = listOf(
+        Hero(
+            id = 16,
+            name = "Monkey D. Luffy (モンキー・D・ルフィ)",
+            image = "/images/luffy.png",
+            about = "Monkey D. Luffy, also known as \"Straw Hat Luffy\" and commonly as \"Straw Hat\", is the main protagonist of the manga and anime, One Piece. He is the founder and captain of the increasingly infamous and powerful Straw Hat Pirates, as well as one of its top fighters. His lifelong dream is to become the Pirate King by finding the legendary treasure left behind by the late Gol D. Roger. After his heroic efforts to save the Arabasta Kingdom, Dressrosa and various other countries, he has been recognized as one of 'The Worst Generation' and now commands a fleet of over 5600 pirates.",
+            month = "May",
+            day = "5th",
+            rating = 4.9,
+            power = 400000,
+            abilities = listOf(
+                "Gomu Gomu no Mi (Gum-Gum Fruit)\n" +
+                        "Gear Second\n" +
+                        "Gear Third\n" +
+                        "Gear Fourth: Boundman\n" +
+                        "Gear Fourth: Tankman\n" +
+                        "Gear Fourth: Snakeman\n" +
+                        "Gear Fifth: Joy Boy\n" +
+                        "Haoshoku Haki (Conqueror's Haki)\n" +
+                        "Busoshoku Haki (Armament Haki)\n" +
+                        "Kenbunshoku Haki (Observation Haki)\n" +
+                        "Advanced Haoshoku Haki\n" +
+                        "Advanced Busoshoku Haki\n" +
+                        "Advanced Kenbunshoku Haki (Future Sight)"
+            ),
+            family = listOf(
+                "Monkey D. Dragon (Father)\n" +
+                        "Monkey D. Garp (Grandfather)\n" +
+                        "Portgas D. Ace (Adoptive Brother)\n" +
+                        "Sabo (Sworn Brother)"
+            ),
+            natureTypes = listOf(
+                "Rubber\n" +
+                        "Sun God Nika"
+            )
+        ),
+        Hero(
+            id = 17,
+            name = "Roronoa Zoro (ロロノア・ゾロ)",
+            image = "/images/zoro.jpg",
+            about = "Roronoa Zoro, also known as \"Pirate Hunter\" Zoro, is the combatant of the Straw Hat Pirates, and one of their two swordsmen and the two oldest members of the crew. Formerly a bounty hunter, he is the second member of the crew and the first to join, doing so in the Romance Dawn Arc. As a master of Three Sword Style, a swordsmanship style which he created during his childhood training in Shimotsuki Village, Zoro is among the four most powerful combatants of the Straw Hats, alongside Luffy, Sanji and Jinbe.",
+            month = "Nov",
+            day = "11th",
+            rating = 4.7,
+            power = 370000,
+            abilities = listOf(
+                "Three Sword Style\n" +
+                        "Two Sword Style\n" +
+                        "One Sword Style\n" +
+                        "Nine Sword Style: Asura\n" +
+                        "Busoshoku Haki (Armament Haki)\n" +
+                        "Kenbunshoku Haki (Observation Haki)\n" +
+                        "Advanced Busoshoku Haki\n" +
+                        "Flying Slash Attack\n" +
+                        "Santoryu: Oni Giri\n" +
+                        "Santoryu: Tora Gari\n" +
+                        "Santoryu: Sanzen Sekai\n" +
+                        "Santoryu: Ichidai Sanzen Daisen Sekai"
+            ),
+            family = listOf(
+                "Unknown"
+            ),
+            natureTypes = listOf(
+                "Swordsmanship"
+            )
+        ),
+        Hero(
+            id = 18,
+            name = "Nami (ナミ)",
+            image = "/images/nami.jpg",
+            about = "\"Cat Burglar\" Nami is the navigator of the Straw Hat Pirates. She was the third member of the crew and the second to join, doing so during the Orange Town Arc. She was formerly a member of the Arlong Pirates and initially joined the Straw Hats so that she could rob them in order to buy back her village from Arlong. However, she legitimately joined the Straw Hats after they rebelled against and defeated Arlong. Her dream is to make a map of the entire world.",
+            month = "Jul",
+            day = "3rd",
+            rating = 4.3,
+            power = 65000,
+            abilities = listOf(
+                "Navigation\n" +
+                        "Cartography\n" +
+                        "Art of Weather\n" +
+                        "Clima-Tact\n" +
+                        "Weather Egg\n" +
+                        "Thunder Breed Tempo\n" +
+                        "Heat Egg\n" +
+                        "Cool Egg\n" +
+                        "Zeus (Living Cloud)\n" +
+                        "Thunderbolt Tempo\n" +
+                        "Mirage Tempo\n" +
+                        "Weather Forecasting\n" +
+                        "Pickpocketing"
+            ),
+            family = listOf(
+                "Bell-mère (Adoptive Mother)\n" +
+                        "Nojiko (Adoptive Sister)"
+            ),
+            natureTypes = listOf(
+                "Weather Manipulation"
+            )
+        )
+    )
+
+    override val page7: List<Hero> = listOf(
+        Hero(
+            id = 19,
+            name = "Vinsmoke Sanji (ヴィンスモーク・サンジ)",
+            image = "/images/sanji.jpg",
+            about = "\"Black Leg\" Sanji, born as Vinsmoke Sanji, is the cook of the Straw Hat Pirates. He is the fifth member of the crew and the fourth to join, doing so at the end of the Baratie Arc. Born as the third son and fourth child of the Vinsmoke Family, Sanji renounced his family twice, once in his youth and again after reuniting with them as an adult. He's one of the crew's top fighters, using his powerful legs and feet in battle with his self-created Black Leg Style.",
+            rating = 4.6,
+            power = 360000,
+            month = "Mar",
+            day = "2nd",
+            family = listOf(
+                "Vinsmoke Judge (Father)",
+                "Vinsmoke Sora (Mother)",
+                "Vinsmoke Reiju (Sister)",
+                "Vinsmoke Ichiji (Brother)",
+                "Vinsmoke Niji (Brother)",
+                "Vinsmoke Yonji (Brother)"
+            ),
+            abilities = listOf(
+                "Black Leg Style",
+                "Diable Jambe",
+                "Sky Walk",
+                "Hell Memories",
+                "Stealth Black",
+                "Raid Suit",
+                "Busoshoku Haki (Armament Haki)",
+                "Kenbunshoku Haki (Observation Haki)",
+                "Advanced Kenbunshoku Haki",
+                "Cooking"
+            ),
+            natureTypes = listOf(
+                "Fire",
+                "Modified Human"
+            )
+        ),
+        Hero(
+            id = 20,
+            name = "Nico Robin (ニコ・ロビン)",
+            image = "/images/robin.jpg",
+            about = "Nico Robin, also known by her epithet \"Devil Child\" and the \"Light of the Revolution\", is the archaeologist of the Straw Hat Pirates. She is the seventh member of the crew and the sixth to join, doing so at the end of the Arabasta Arc. She temporarily left the crew during the Water 7 Arc, but rejoined during the Enies Lobby Arc. Robin is the only survivor of the destroyed island of Ohara, and is currently the only person in the world known to have the ability to read and decipher Poneglyphs, a skill which is considered forbidden and threatening to the World Government.",
+            rating = 4.5,
+            power = 85000,
+            month = "Feb",
+            day = "6th",
+            family = listOf(
+                "Nico Olvia (Mother)",
+                "Unknown Father"
+            ),
+            abilities = listOf(
+                "Hana Hana no Mi (Flower-Flower Fruit)",
+                "Assassination",
+                "Archaeology",
+                "History",
+                "Intelligence",
+                "Cien Fleur",
+                "Gigantesco Mano",
+                "Mil Fleur",
+                "Ojos Fleur",
+                "Clutch",
+                "Wing",
+                "Demonio Fleur"
+            ),
+            natureTypes = listOf(
+                "Limb Replication"
+            )
+        ),
+        Hero(
+            id = 21,
+            name = "Tony Tony Chopper (トニートニー・チョッパー)",
+            image = "/images/chopper.jpg",
+            about = "Tony Tony Chopper, also known as \"Cotton Candy Lover\" Chopper, is the doctor of the Straw Hat Pirates. He is the sixth member of the crew and the fifth to join, doing so at the end of the Drum Island Arc. He was temporarily forced to join the Foxy Pirates during the Long Ring Long Land Arc, but was quickly returned to Luffy's crew. Chopper is a reindeer that ate the Hito Hito no Mi, a Devil Fruit that allows him to transform into a human hybrid and a full human at will.",
+            rating = 4.0,
+            power = 50000,
+            month = "Dec",
+            day = "24th",
+            family = listOf(
+                "Dr. Hiriluk (Adoptive Father)",
+                "Dr. Kureha (Mentor)"
+            ),
+            abilities = listOf(
+                "Hito Hito no Mi (Human-Human Fruit)",
+                "Medical Knowledge",
+                "Rumble Ball",
+                "Brain Point",
+                "Heavy Point",
+                "Walk Point",
+                "Guard Point",
+                "Horn Point",
+                "Kung Fu Point",
+                "Monster Point"
+            ),
+            natureTypes = listOf(
+                "Animal Transformation"
+            )
+        )
+    )
+
+    override val page8: List<Hero> = listOf(
+        Hero(
+            id = 22,
+            name = "Usopp (ウソップ)",
+            image = "/images/usopp.jpg",
+            about = "\"God\" Usopp is the sniper of the Straw Hat Pirates. He is the fourth member of the crew and the third to join, doing so at the end of the Syrup Village Arc. After working with the Straw Hats to defeat Kuro and the Black Cat Pirates, he was invited to join the crew. Despite his cowardice, Usopp dreams of becoming a brave warrior of the sea just like his father Yasopp and lives every day in pursuit of living up to this dream.",
+            rating = 4.2,
+            power = 60000,
+            month = "Apr",
+            day = "1st",
+            family = listOf(
+                "Yasopp (Father)",
+                "Banchina (Mother)"
+            ),
+            abilities = listOf(
+                "Sniping",
+                "Pop Green",
+                "Kenbunshoku Haki (Observation Haki)",
+                "Usopp Hammer",
+                "Usopp Rubber Band",
+                "Kabuto",
+                "Black Kabuto",
+                "Midori Boshi",
+                "Impact Dial",
+                "Reject Dial",
+                "Lying"
+            ),
+            natureTypes = listOf(
+                "Plant Manipulation"
+            )
+        ),
+        Hero(
+            id = 23,
+            name = "Franky (フランキー)",
+            image = "/images/franky.jpg",
+            about = "\"Iron Man\" Franky is the shipwright of the Straw Hat Pirates. He is the eighth member of the crew and the seventh to join, doing so at the end of the Post-Enies Lobby Arc. Born as Cutty Flam, he was originally a member of Tom's Workers, until the incident in which Tom was taken away. After this event, he became a ship dismantler as well as the leader of the Franky Family, a group of ship dismantlers, before building the Thousand Sunny and joining the Straw Hat Pirates.",
+            rating = 4.3,
+            power = 94000,
+            month = "Mar",
+            day = "9th",
+            family = listOf(
+                "Unknown"
+            ),
+            abilities = listOf(
+                "Cyborg Body",
+                "Shipwright Skills",
+                "Radical Beam",
+                "Strong Right",
+                "Weapons Left",
+                "Coup de Vent",
+                "Coup de Burst",
+                "General Franky",
+                "Franky Shogun",
+                "Nipple Light",
+                "Hair Control"
+            ),
+            natureTypes = listOf(
+                "Mechanized Body",
+                "Cola Power"
+            )
+        ),
+        Hero(
+            id = 24,
+            name = "Brook (ブルック)",
+            image = "/images/brook.jpg",
+            about = "\"Soul King\" Brook is the musician of the Straw Hat Pirates. He is the ninth member of the crew and the eighth to join, doing so at the end of the Thriller Bark Arc. He is a skeleton that the Straw Hats found on board a ghost ship after drifting into the Florian Triangle. He is a Devil Fruit user who ate the Yomi Yomi no Mi, which allowed him to return to life after death once, and he has the power to run across the surface of water, being one of many who share this trait.",
+            rating = 4.4,
+            power = 83000,
+            month = "Apr",
+            day = "3rd",
+            family = listOf(
+                "Rumbar Pirates (Former Crew)"
+            ),
+            abilities = listOf(
+                "Yomi Yomi no Mi (Revive-Revive Fruit)",
+                "Soul Solid",
+                "Soul Parade",
+                "Nemuriuta Flanc",
+                "Hanauta Sancho: Yahazu Giri",
+                "Party Music",
+                "Quinte Tierce Fantasia",
+                "Soul Pocus",
+                "Song of Scratches",
+                "Pastoral Song"
+            ),
+            natureTypes = listOf(
+                "Soul Manipulation",
+                "Ice Manipulation"
+            )
+        )
+    )
+
+    override val page9: List<Hero> = listOf(
+        Hero(
+            id = 25,
+            name = "Jinbe (ジンベエ)",
+            image = "/images/jinbe.jpg",
+            about = "\"Knight of the Sea\" Jinbe is the helmsman of the Straw Hat Pirates. He is the tenth member of the crew and the ninth to join, doing so during the Wano Country Arc. He is a whale shark fish-man and a powerful master of Fish-Man Karate. His dream is to fulfill his captain Tiger's dying wish of coexistence and equality between humans and fish-men. He was a member of the Sun Pirates, and later, after the death of Tiger, he became their second captain.",
+            rating = 4.7,
+            power = 380000,
+            month = "Apr",
+            day = "2nd",
+            family = listOf(
+                "Unknown"
+            ),
+            abilities = listOf(
+                "Fish-Man Karate",
+                "Fish-Man Jujutsu",
+                "Busoshoku Haki (Armament Haki)",
+                "Kenbunshoku Haki (Observation Haki)",
+                "Helmsman Skills",
+                "Shark Brick Fist",
+                "Shark Tile Fist",
+                "Vagabond Drill",
+                "Water Heart",
+                "Buraikan"
+            ),
+            natureTypes = listOf(
+                "Water Manipulation",
+                "Fish-Man"
+            )
+        ),
+        Hero(
+            id = 26,
+            name = "Trafalgar D. Water Law (トラファルガー・D・ワーテル・ロー)",
+            image = "/images/law.jpg",
+            about = "Trafalgar D. Water Law, more commonly known as just Trafalgar Law and by his epithet as the \"Surgeon of Death\", is the captain and doctor of the Heart Pirates, a pirate crew from North Blue. He is one of twelve pirates who are referred to as the \"Worst Generation\". He became one of the Seven Warlords of the Sea during the timeskip, but his position was revoked for allying with the Straw Hat Pirates and bringing down Donquixote Doflamingo.",
+            rating = 4.6,
+            power = 320000,
+            month = "Oct",
+            day = "6th",
+            family = listOf(
+                "Trafalgar Water D. Family",
+                "Donquixote Rosinante (Adoptive Father)"
+            ),
+            abilities = listOf(
+                "Ope Ope no Mi (Op-Op Fruit)",
+                "ROOM",
+                "Shambles",
+                "Mes",
+                "Countershock",
+                "Gamma Knife",
+                "Radio Knife",
+                "Injection Shot",
+                "Takt",
+                "Busoshoku Haki (Armament Haki)",
+                "Kenbunshoku Haki (Observation Haki)",
+                "Medical Knowledge",
+                "Swordsmanship"
+            ),
+            natureTypes = listOf(
+                "Spatial Manipulation"
+            )
+        ),
+        Hero(
+            id = 27,
+            name = "Portgas D. Ace (ポートガス・D・エース)",
+            image = "/images/ace.jpg",
+            about = "Portgas D. Ace, born as Gol D. Ace and nicknamed \"Fire Fist\" Ace, was the sworn older brother of Luffy and Sabo, and the son of the late Pirate King, Gol D. Roger, and Portgas D. Rouge. He was adopted by Monkey D. Garp as wished by Roger to him before his birth. Ace was the 2nd division commander of the Whitebeard Pirates and one-time captain of the Spade Pirates. He was killed by Admiral Akainu while protecting his younger brother, Luffy, during the Battle of Marineford.",
+            rating = 4.8,
+            power = 350000,
+            month = "Jan",
+            day = "1st",
+            family = listOf(
+                "Gol D. Roger (Father)",
+                "Portgas D. Rouge (Mother)",
+                "Monkey D. Luffy (Adoptive Brother)",
+                "Sabo (Sworn Brother)"
+            ),
+            abilities = listOf(
+                "Mera Mera no Mi (Flame-Flame Fruit)",
+                "Haoshoku Haki (Conqueror's Haki)",
+                "Busoshoku Haki (Armament Haki)",
+                "Fire Fist",
+                "Hiken",
+                "Dai Enkai: Entei",
+                "Hotarubi",
+                "Hidaruma",
+                "Jujika",
+                "Shinka: Shiranui"
+            ),
+            natureTypes = listOf(
+                "Fire Manipulation"
+            )
+        )
+    )
+
+    override val page10: List<Hero> = listOf(
+        Hero(
+            id = 28,
+            name = "Shanks (シャンクス)",
+            image = "/images/shanks.jpg",
+            about = "\"Red-Haired\" Shanks is one of the Four Emperors that rule over the New World. He was also the captain of the Red Hair Pirates and a former member of the legendary Roger Pirates, the only group to successfully conquer the Grand Line. He is the man who inspired Luffy to go on his journey as a pirate, and is considered by Luffy to be his childhood hero. He is one of the most powerful characters in the series with the highest known bounty of 4,048,900,000 berries.",
+            rating = 5.0,
+            power = 420000,
+            month = "Mar",
+            day = "9th",
+            family = listOf(
+                "Unknown"
+            ),
+            abilities = listOf(
+                "Haoshoku Haki (Conqueror's Haki)",
+                "Busoshoku Haki (Armament Haki)",
+                "Kenbunshoku Haki (Observation Haki)",
+                "Advanced Haoshoku Haki",
+                "Advanced Busoshoku Haki",
+                "Swordsmanship",
+                "Future Sight",
+                "Divine Departure"
+            ),
+            natureTypes = listOf(
+                "Swordsmanship"
+            )
+        ),
+        Hero(
+            id = 29,
+            name = "Marshall D. Teach (マーシャル・D・ティーチ)",
+            image = "/images/blackbeard.jpg",
+            about = "Marshall D. Teach, most commonly referred to by his epithet \"Blackbeard\", is the captain of the Blackbeard Pirates and one of the Four Emperors. He was formerly a member of the Whitebeard Pirates' 2nd division before killing Thatch and defecting from the crew. He briefly became one of the Seven Warlords of the Sea after handing Ace over to the Marines, before resigning after breaking into Impel Down. He is the only known person to wield the powers of two Devil Fruits.",
+            rating = 4.9,
+            power = 410000,
+            month = "Aug",
+            day = "3rd",
+            family = listOf(
+                "Unknown"
+            ),
+            abilities = listOf(
+                "Yami Yami no Mi (Dark-Dark Fruit)",
+                "Gura Gura no Mi (Tremor-Tremor Fruit)",
+                "Black Hole",
+                "Liberation",
+                "Kurouzu",
+                "Kaishin",
+                "Seikai",
+                "Shima Yurashi",
+                "Dark Matter",
+                "Absorption",
+                "Nullification"
+            ),
+            natureTypes = listOf(
+                "Darkness Manipulation",
+                "Earthquake Generation"
+            )
+        ),
+        Hero(
+            id = 30,
+            name = "Monkey D. Garp (モンキー・D・ガープ)",
+            image = "/images/garp.jpg",
+            about = "Monkey D. Garp, often referred to as \"Garp the Fist\" and by his epithet of \"Hero of the Marines\", is an extremely powerful Marine vice admiral and the father of Monkey D. Dragon, the paternal grandfather of Monkey D. Luffy, and the adoptive grandfather of Portgas D. Ace. He was responsible for cornering and fighting the Pirate King, Gol D. Roger, numerous times in his career. Garp is one of the major figures, along with Kong, Sengoku, Shiki, and Whitebeard, from the times when Roger was still alive.",
+            rating = 4.7,
+            power = 390000,
+            month = "May",
+            day = "2nd",
+            family = listOf(
+                "Monkey D. Dragon (Son)",
+                "Monkey D. Luffy (Grandson)",
+                "Portgas D. Ace (Adoptive Grandson)"
+            ),
+            abilities = listOf(
+                "Fist of Love",
+                "Busoshoku Haki (Armament Haki)",
+                "Haoshoku Haki (Conqueror's Haki)",
+                "Iron Fist",
+                "Meteor Fist",
+                "Advanced Busoshoku Haki",
+                "Rokushiki",
+                "Superhuman Strength",
+                "Garp Punch"
+            ),
+            natureTypes = listOf(
+                "Physical Strength"
+            )
+        )
+    )
+
     override val heroes: Map<Int, List<Hero>> = mapOf(
         1 to page1,
         2 to page2,
         3 to page3,
         4 to page4,
         5 to page5,
+        6 to page6,
+        7 to page7,
+        8 to page8,
+        9 to page9,
+        10 to page10,
     )
 
     override suspend fun getAllHeroes(page: Int): ApiResponse {
@@ -485,10 +962,10 @@ class HeroRepoImpl : HeroRepository {
         var prevPage: Int? = null
         var nextPage: Int? = null
 
-        if (page in 1..4) {
+        if (page in 1..heroes.size-1) {
             nextPage = page.plus(1)
         }
-        if (page in 2..5) {
+        if (page in 2..heroes.size) {
             prevPage = page.minus(1)
         }
         return mapOf(PREV_PAGE_KEY to prevPage, NEXT_PAGE_KEY to nextPage)
