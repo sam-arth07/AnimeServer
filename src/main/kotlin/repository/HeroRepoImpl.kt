@@ -940,11 +940,11 @@ class HeroRepoImpl : HeroRepository {
         3 to page3,
         4 to page4,
         5 to page5,
-        6 to page6,
-        7 to page7,
-        8 to page8,
-        9 to page9,
-        10 to page10,
+//        6 to page6,
+//        7 to page7,
+//        8 to page8,
+//        9 to page9,
+//        10 to page10,
     )
 
     override suspend fun getAllHeroes(page: Int): ApiResponse {
