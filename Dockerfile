@@ -6,5 +6,5 @@ RUN gradle buildFatJar --no-daemon
 FROM openjdk:11
 EXPOSE 8080:8080
 RUN mkdir /app
-COPY --from=build /home/gradle/src/build/libs/*-all.jar /app/AnimeServer-all.jar
+COPY --from=build /home/gradle/src/build/libs/*.jar /app/AnimeServer-all.jar
 ENTRYPOINT ["java","-jar","/app/AnimeServer-all.jar"]
